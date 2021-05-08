@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C257CDCF26467C8C0044D731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDCE26467C8C0044D731 /* AppDelegate.swift */; };
+		C257CDD126467C8C0044D731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDD026467C8C0044D731 /* SceneDelegate.swift */; };
+		C257CDD326467C8C0044D731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDD226467C8C0044D731 /* ViewController.swift */; };
+		C257CDD626467C8C0044D731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C257CDD426467C8C0044D731 /* Main.storyboard */; };
+		C257CDD826467C8E0044D731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C257CDD726467C8E0044D731 /* Assets.xcassets */; };
+		C257CDDB26467C8E0044D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C257CDD926467C8E0044D731 /* LaunchScreen.storyboard */; };
+		C257CDE626467C8E0044D731 /* KazameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDE526467C8E0044D731 /* KazameTests.swift */; };
+		C257CDF126467C8E0044D731 /* KazameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDF026467C8E0044D731 /* KazameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C257CDE226467C8E0044D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C257CDC326467C8C0044D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C257CDCA26467C8C0044D731;
+			remoteInfo = Kazame;
+		};
+		C257CDED26467C8E0044D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C257CDC326467C8C0044D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C257CDCA26467C8C0044D731;
+			remoteInfo = Kazame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C257CDCB26467C8C0044D731 /* Kazame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C257CDCE26467C8C0044D731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C257CDD026467C8C0044D731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C257CDD226467C8C0044D731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C257CDD526467C8C0044D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C257CDD726467C8E0044D731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C257CDDA26467C8E0044D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C257CDDC26467C8E0044D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C257CDE126467C8E0044D731 /* KazameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C257CDE526467C8E0044D731 /* KazameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazameTests.swift; sourceTree = "<group>"; };
+		C257CDE726467C8E0044D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C257CDEC26467C8E0044D731 /* KazameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C257CDF026467C8E0044D731 /* KazameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazameUITests.swift; sourceTree = "<group>"; };
+		C257CDF226467C8E0044D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C257CDC826467C8C0044D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDDE26467C8E0044D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDE926467C8E0044D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C257CDC226467C8C0044D731 = {
+			isa = PBXGroup;
+			children = (
+				C257CDCD26467C8C0044D731 /* Kazame */,
+				C257CDE426467C8E0044D731 /* KazameTests */,
+				C257CDEF26467C8E0044D731 /* KazameUITests */,
+				C257CDCC26467C8C0044D731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C257CDCC26467C8C0044D731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C257CDCB26467C8C0044D731 /* Kazame.app */,
+				C257CDE126467C8E0044D731 /* KazameTests.xctest */,
+				C257CDEC26467C8E0044D731 /* KazameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C257CDCD26467C8C0044D731 /* Kazame */ = {
+			isa = PBXGroup;
+			children = (
+				C257CDCE26467C8C0044D731 /* AppDelegate.swift */,
+				C257CDD026467C8C0044D731 /* SceneDelegate.swift */,
+				C257CDD226467C8C0044D731 /* ViewController.swift */,
+				C257CDD426467C8C0044D731 /* Main.storyboard */,
+				C257CDD726467C8E0044D731 /* Assets.xcassets */,
+				C257CDD926467C8E0044D731 /* LaunchScreen.storyboard */,
+				C257CDDC26467C8E0044D731 /* Info.plist */,
+			);
+			path = Kazame;
+			sourceTree = "<group>";
+		};
+		C257CDE426467C8E0044D731 /* KazameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C257CDE526467C8E0044D731 /* KazameTests.swift */,
+				C257CDE726467C8E0044D731 /* Info.plist */,
+			);
+			path = KazameTests;
+			sourceTree = "<group>";
+		};
+		C257CDEF26467C8E0044D731 /* KazameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C257CDF026467C8E0044D731 /* KazameUITests.swift */,
+				C257CDF226467C8E0044D731 /* Info.plist */,
+			);
+			path = KazameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C257CDCA26467C8C0044D731 /* Kazame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C257CDF526467C8E0044D731 /* Build configuration list for PBXNativeTarget "Kazame" */;
+			buildPhases = (
+				C257CDC726467C8C0044D731 /* Sources */,
+				C257CDC826467C8C0044D731 /* Frameworks */,
+				C257CDC926467C8C0044D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kazame;
+			productName = Kazame;
+			productReference = C257CDCB26467C8C0044D731 /* Kazame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C257CDE026467C8E0044D731 /* KazameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C257CDF826467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameTests" */;
+			buildPhases = (
+				C257CDDD26467C8E0044D731 /* Sources */,
+				C257CDDE26467C8E0044D731 /* Frameworks */,
+				C257CDDF26467C8E0044D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C257CDE326467C8E0044D731 /* PBXTargetDependency */,
+			);
+			name = KazameTests;
+			productName = KazameTests;
+			productReference = C257CDE126467C8E0044D731 /* KazameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C257CDEB26467C8E0044D731 /* KazameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C257CDFB26467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameUITests" */;
+			buildPhases = (
+				C257CDE826467C8E0044D731 /* Sources */,
+				C257CDE926467C8E0044D731 /* Frameworks */,
+				C257CDEA26467C8E0044D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C257CDEE26467C8E0044D731 /* PBXTargetDependency */,
+			);
+			name = KazameUITests;
+			productName = KazameUITests;
+			productReference = C257CDEC26467C8E0044D731 /* KazameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C257CDC326467C8C0044D731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C257CDCA26467C8C0044D731 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C257CDE026467C8E0044D731 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C257CDCA26467C8C0044D731;
+					};
+					C257CDEB26467C8E0044D731 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C257CDCA26467C8C0044D731;
+					};
+				};
+			};
+			buildConfigurationList = C257CDC626467C8C0044D731 /* Build configuration list for PBXProject "Kazame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C257CDC226467C8C0044D731;
+			productRefGroup = C257CDCC26467C8C0044D731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C257CDCA26467C8C0044D731 /* Kazame */,
+				C257CDE026467C8E0044D731 /* KazameTests */,
+				C257CDEB26467C8E0044D731 /* KazameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C257CDC926467C8C0044D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C257CDDB26467C8E0044D731 /* LaunchScreen.storyboard in Resources */,
+				C257CDD826467C8E0044D731 /* Assets.xcassets in Resources */,
+				C257CDD626467C8C0044D731 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDDF26467C8E0044D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDEA26467C8E0044D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C257CDC726467C8C0044D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C257CDD326467C8C0044D731 /* ViewController.swift in Sources */,
+				C257CDCF26467C8C0044D731 /* AppDelegate.swift in Sources */,
+				C257CDD126467C8C0044D731 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDDD26467C8E0044D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C257CDE626467C8E0044D731 /* KazameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C257CDE826467C8E0044D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C257CDF126467C8E0044D731 /* KazameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C257CDE326467C8E0044D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C257CDCA26467C8C0044D731 /* Kazame */;
+			targetProxy = C257CDE226467C8E0044D731 /* PBXContainerItemProxy */;
+		};
+		C257CDEE26467C8E0044D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C257CDCA26467C8C0044D731 /* Kazame */;
+			targetProxy = C257CDED26467C8E0044D731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C257CDD426467C8C0044D731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C257CDD526467C8C0044D731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C257CDD926467C8E0044D731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C257CDDA26467C8E0044D731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C257CDF326467C8E0044D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C257CDF426467C8E0044D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C257CDF626467C8E0044D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = Kazame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.Kazame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C257CDF726467C8E0044D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = Kazame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.Kazame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C257CDF926467C8E0044D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = KazameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.KazameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazame.app/Kazame";
+			};
+			name = Debug;
+		};
+		C257CDFA26467C8E0044D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = KazameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.KazameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazame.app/Kazame";
+			};
+			name = Release;
+		};
+		C257CDFC26467C8E0044D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = KazameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.KazameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kazame;
+			};
+			name = Debug;
+		};
+		C257CDFD26467C8E0044D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWW5LD8ALV;
+				INFOPLIST_FILE = KazameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArdaKaynar.KazameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kazame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C257CDC626467C8C0044D731 /* Build configuration list for PBXProject "Kazame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C257CDF326467C8E0044D731 /* Debug */,
+				C257CDF426467C8E0044D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C257CDF526467C8E0044D731 /* Build configuration list for PBXNativeTarget "Kazame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C257CDF626467C8E0044D731 /* Debug */,
+				C257CDF726467C8E0044D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C257CDF826467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C257CDF926467C8E0044D731 /* Debug */,
+				C257CDFA26467C8E0044D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C257CDFB26467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C257CDFC26467C8E0044D731 /* Debug */,
+				C257CDFD26467C8E0044D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C257CDC326467C8C0044D731 /* Project object */;
+}
