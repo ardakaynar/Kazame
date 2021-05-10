@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="weZ-Mv-nE1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -12,6 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kazame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -36,17 +37,17 @@
                     <navigationItem key="navigationItem" id="DEC-hH-kX4"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <segue destination="Egu-64-UDh" kind="presentation" identifier="loginView" id="1jf-NF-SkD"/>
+                        <segue destination="Egu-64-UDh" kind="show" identifier="loginView" id="1jf-NF-SkD"/>
+                        <segue destination="bzD-Ir-CcX" kind="presentation" identifier="goToHome" animates="NO" modalPresentationStyle="fullScreen" id="2Nl-JA-mU7"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="bRD-1k-4Bu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Egu-64-UDh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" id="Egu-64-UDh" customClass="LoginViewController" customModule="Kazame" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w9Z-uu-728">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +105,9 @@
                                                 <state key="normal" title="Login">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signup:" destination="Egu-64-UDh" eventType="touchUpInside" id="v1K-iJ-2tL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
@@ -128,7 +132,7 @@
                                                         <rect key="frame" x="183" y="0.0" width="57" height="30"/>
                                                         <state key="normal" title="Register"/>
                                                         <connections>
-                                                            <segue destination="T63-mT-gJB" kind="presentation" id="wB4-iD-mkI"/>
+                                                            <segue destination="T63-mT-gJB" kind="show" id="wB4-iD-mkI"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -148,15 +152,29 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Wq-YA-DIs"/>
+                    <connections>
+                        <outlet property="passwordText" destination="AuZ-VY-Xh3" id="nI0-3m-xga"/>
+                        <outlet property="usernameText" destination="VlT-d5-Eyb" id="5uB-Ev-Sob"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfE-xn-vh3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1884.057971014493" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
+        <scene sceneID="Oxr-dr-qro">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="bzD-Ir-CcX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nrV-aK-fLF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ijo-Lt-nkV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="-247"/>
+        </scene>
+        <!--Register View Controller-->
         <scene sceneID="kKi-DY-ujh">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="T63-mT-gJB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterViewController" modalPresentationStyle="fullScreen" id="T63-mT-gJB" customClass="RegisterViewController" customModule="Kazame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EuY-4B-9B3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,6 +227,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerButton:" destination="T63-mT-gJB" eventType="touchUpInside" id="zNI-ut-Kyq"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="LUc-Nk-h3c">
                                         <rect key="frame" x="16" y="471" width="382" height="282"/>
@@ -217,9 +238,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PET-MF-PV2">
                                         <rect key="frame" x="16" y="780" width="382" height="30"/>
                                         <state key="normal" title="Do you already have an account?"/>
-                                        <connections>
-                                            <segue destination="Egu-64-UDh" kind="show" id="7RE-jo-qRw"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
@@ -235,6 +253,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bNx-aC-PIZ"/>
+                    <connections>
+                        <outlet property="passwordCorrectTextField" destination="2oB-kQ-wc4" id="r7D-f5-78x"/>
+                        <outlet property="passwordTextField" destination="rHY-5h-O2H" id="BI4-3e-9kZ"/>
+                        <outlet property="usernameTextField" destination="rmo-Zl-xlu" id="XeL-hg-akz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="39Y-lH-Rg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -259,9 +282,6 @@
             <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="7RE-jo-qRw"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

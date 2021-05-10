@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EE212E9A4B44D9618EE4263 /* Pods_Kazame_KazameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC1502BC0EF16BCE898B306 /* Pods_Kazame_KazameUITests.framework */; };
+		741DDC670BC5E236F781D03E /* Pods_Kazame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11A26FECCDD7FCEA6920B36 /* Pods_Kazame.framework */; };
+		B7BDEEB3EC09BD97844881E6 /* Pods_KazameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC06CAF270177276E0AD4B5 /* Pods_KazameTests.framework */; };
+		C249B4862649B1EE0040112F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249B4852649B1EE0040112F /* LoginViewController.swift */; };
 		C257CDCF26467C8C0044D731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDCE26467C8C0044D731 /* AppDelegate.swift */; };
 		C257CDD126467C8C0044D731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDD026467C8C0044D731 /* SceneDelegate.swift */; };
 		C257CDD326467C8C0044D731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDD226467C8C0044D731 /* ViewController.swift */; };
@@ -15,6 +19,10 @@
 		C257CDDB26467C8E0044D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C257CDD926467C8E0044D731 /* LaunchScreen.storyboard */; };
 		C257CDE626467C8E0044D731 /* KazameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDE526467C8E0044D731 /* KazameTests.swift */; };
 		C257CDF126467C8E0044D731 /* KazameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257CDF026467C8E0044D731 /* KazameUITests.swift */; };
+		C2F6E45A2649D1DF000B37A7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F6E4592649D1DF000B37A7 /* Home.storyboard */; };
+		C2F6E45C2649D209000B37A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6E45B2649D209000B37A7 /* HomeViewController.swift */; };
+		C2F6E45E2649EAB0000B37A7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6E45D2649EAB0000B37A7 /* RegisterViewController.swift */; };
+		C2F6E4602649F378000B37A7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6E45F2649F378000B37A7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0CFEE601CD8D2F9A441D12 /* Pods-Kazame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazame.debug.xcconfig"; path = "Target Support Files/Pods-Kazame/Pods-Kazame.debug.xcconfig"; sourceTree = "<group>"; };
+		2E125709A00F804D18B8BAE2 /* Pods-Kazame-KazameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazame-KazameUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kazame-KazameUITests/Pods-Kazame-KazameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC06CAF270177276E0AD4B5 /* Pods_KazameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KazameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583E9A306BF3EFFB87F615BA /* Pods-Kazame-KazameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazame-KazameUITests.release.xcconfig"; path = "Target Support Files/Pods-Kazame-KazameUITests/Pods-Kazame-KazameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68559216F39AD534C20CA079 /* Pods-KazameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KazameTests.release.xcconfig"; path = "Target Support Files/Pods-KazameTests/Pods-KazameTests.release.xcconfig"; sourceTree = "<group>"; };
+		687B43993CCB759FE10B0AD2 /* Pods-KazameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KazameTests.debug.xcconfig"; path = "Target Support Files/Pods-KazameTests/Pods-KazameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC1502BC0EF16BCE898B306 /* Pods_Kazame_KazameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kazame_KazameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C249B4852649B1EE0040112F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C257CDCB26467C8C0044D731 /* Kazame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C257CDCE26467C8C0044D731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C257CDD026467C8C0044D731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		C257CDEC26467C8E0044D731 /* KazameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C257CDF026467C8E0044D731 /* KazameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazameUITests.swift; sourceTree = "<group>"; };
 		C257CDF226467C8E0044D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F6E4592649D1DF000B37A7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C2F6E45B2649D209000B37A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C2F6E45D2649EAB0000B37A7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C2F6E45F2649F378000B37A7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E11A26FECCDD7FCEA6920B36 /* Pods_Kazame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kazame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3FE83C6E86195E7A7A567D /* Pods-Kazame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kazame.release.xcconfig"; path = "Target Support Files/Pods-Kazame/Pods-Kazame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741DDC670BC5E236F781D03E /* Pods_Kazame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BDEEB3EC09BD97844881E6 /* Pods_KazameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE212E9A4B44D9618EE4263 /* Pods_Kazame_KazameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C619A070B685EA2D2F9468B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11A26FECCDD7FCEA6920B36 /* Pods_Kazame.framework */,
+				9BC1502BC0EF16BCE898B306 /* Pods_Kazame_KazameUITests.framework */,
+				3BC06CAF270177276E0AD4B5 /* Pods_KazameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6807FEAC3B8A240ADBCDFCB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CFEE601CD8D2F9A441D12 /* Pods-Kazame.debug.xcconfig */,
+				FB3FE83C6E86195E7A7A567D /* Pods-Kazame.release.xcconfig */,
+				2E125709A00F804D18B8BAE2 /* Pods-Kazame-KazameUITests.debug.xcconfig */,
+				583E9A306BF3EFFB87F615BA /* Pods-Kazame-KazameUITests.release.xcconfig */,
+				687B43993CCB759FE10B0AD2 /* Pods-KazameTests.debug.xcconfig */,
+				68559216F39AD534C20CA079 /* Pods-KazameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C257CDC226467C8C0044D731 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				C257CDE426467C8E0044D731 /* KazameTests */,
 				C257CDEF26467C8E0044D731 /* KazameUITests */,
 				C257CDCC26467C8C0044D731 /* Products */,
+				6807FEAC3B8A240ADBCDFCB7 /* Pods */,
+				3C619A070B685EA2D2F9468B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +152,14 @@
 				C257CDCE26467C8C0044D731 /* AppDelegate.swift */,
 				C257CDD026467C8C0044D731 /* SceneDelegate.swift */,
 				C257CDD226467C8C0044D731 /* ViewController.swift */,
+				C249B4852649B1EE0040112F /* LoginViewController.swift */,
+				C2F6E45D2649EAB0000B37A7 /* RegisterViewController.swift */,
+				C2F6E45B2649D209000B37A7 /* HomeViewController.swift */,
+				C2F6E45F2649F378000B37A7 /* SettingsViewController.swift */,
 				C257CDD426467C8C0044D731 /* Main.storyboard */,
-				C257CDD726467C8E0044D731 /* Assets.xcassets */,
+				C2F6E4592649D1DF000B37A7 /* Home.storyboard */,
 				C257CDD926467C8E0044D731 /* LaunchScreen.storyboard */,
+				C257CDD726467C8E0044D731 /* Assets.xcassets */,
 				C257CDDC26467C8E0044D731 /* Info.plist */,
 			);
 			path = Kazame;
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C257CDF526467C8E0044D731 /* Build configuration list for PBXNativeTarget "Kazame" */;
 			buildPhases = (
+				BA9D6B55D499B6DF6789612F /* [CP] Check Pods Manifest.lock */,
 				C257CDC726467C8C0044D731 /* Sources */,
 				C257CDC826467C8C0044D731 /* Frameworks */,
 				C257CDC926467C8C0044D731 /* Resources */,
+				2C092A46D2D1A0F7799503E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C257CDF826467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameTests" */;
 			buildPhases = (
+				28B1D474602F6D340C9D3106 /* [CP] Check Pods Manifest.lock */,
 				C257CDDD26467C8E0044D731 /* Sources */,
 				C257CDDE26467C8E0044D731 /* Frameworks */,
 				C257CDDF26467C8E0044D731 /* Resources */,
+				AED3EE1A73997AAC88A14DDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C257CDFB26467C8E0044D731 /* Build configuration list for PBXNativeTarget "KazameUITests" */;
 			buildPhases = (
+				F3AEE69E4A5B0968D61CD6E2 /* [CP] Check Pods Manifest.lock */,
 				C257CDE826467C8E0044D731 /* Sources */,
 				C257CDE926467C8E0044D731 /* Frameworks */,
 				C257CDEA26467C8E0044D731 /* Resources */,
+				BE01B6E35C550D24049E9A5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +295,7 @@
 				C257CDDB26467C8E0044D731 /* LaunchScreen.storyboard in Resources */,
 				C257CDD826467C8E0044D731 /* Assets.xcassets in Resources */,
 				C257CDD626467C8C0044D731 /* Main.storyboard in Resources */,
+				C2F6E45A2649D1DF000B37A7 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +315,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28B1D474602F6D340C9D3106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KazameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C092A46D2D1A0F7799503E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kazame/Pods-Kazame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kazame/Pods-Kazame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kazame/Pods-Kazame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED3EE1A73997AAC88A14DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KazameTests/Pods-KazameTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KazameTests/Pods-KazameTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KazameTests/Pods-KazameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9D6B55D499B6DF6789612F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kazame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE01B6E35C550D24049E9A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kazame-KazameUITests/Pods-Kazame-KazameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kazame-KazameUITests/Pods-Kazame-KazameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kazame-KazameUITests/Pods-Kazame-KazameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AEE69E4A5B0968D61CD6E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kazame-KazameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C257CDC726467C8C0044D731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F6E45C2649D209000B37A7 /* HomeViewController.swift in Sources */,
+				C249B4862649B1EE0040112F /* LoginViewController.swift in Sources */,
+				C2F6E4602649F378000B37A7 /* SettingsViewController.swift in Sources */,
 				C257CDD326467C8C0044D731 /* ViewController.swift in Sources */,
+				C2F6E45E2649EAB0000B37A7 /* RegisterViewController.swift in Sources */,
 				C257CDCF26467C8C0044D731 /* AppDelegate.swift in Sources */,
 				C257CDD126467C8C0044D731 /* SceneDelegate.swift in Sources */,
 			);
@@ -352,6 +538,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -413,6 +603,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -433,6 +627,7 @@
 		};
 		C257CDF626467C8E0044D731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0CFEE601CD8D2F9A441D12 /* Pods-Kazame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +647,7 @@
 		};
 		C257CDF726467C8E0044D731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3FE83C6E86195E7A7A567D /* Pods-Kazame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +667,7 @@
 		};
 		C257CDF926467C8E0044D731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687B43993CCB759FE10B0AD2 /* Pods-KazameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +690,7 @@
 		};
 		C257CDFA26467C8E0044D731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68559216F39AD534C20CA079 /* Pods-KazameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +713,7 @@
 		};
 		C257CDFC26467C8E0044D731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E125709A00F804D18B8BAE2 /* Pods-Kazame-KazameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +734,7 @@
 		};
 		C257CDFD26467C8E0044D731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583E9A306BF3EFFB87F615BA /* Pods-Kazame-KazameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
